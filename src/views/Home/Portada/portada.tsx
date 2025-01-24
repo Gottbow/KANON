@@ -31,7 +31,7 @@ function portada() {
         </div>
         
         <div className='flex flex-col md:mx-8 mt-10'>
-          <p className='ttext-[#563030] text-3xl mb-4 font-bold'>Projecto 3</p>
+          <p className='text-[#563030] text-3xl mb-4 font-bold'>Projecto 3</p>
           <div className='m-auto w-64 h-48 bg-[#FFD4A6] rounded-3xl'>Contenido</div>
         </div>
       </div>
