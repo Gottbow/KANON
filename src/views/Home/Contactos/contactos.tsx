@@ -1,5 +1,10 @@
+import Logo from '../../../assets/svg/LOGO A COLOR.svg'
+
 function contactos() {
   return (
+
+
+
     <form action="https://api.web3forms.com/submit" method="POST">
         <input
           type="hidden"
@@ -17,11 +22,11 @@ function contactos() {
           name="subject"
           value="Tienes una nueva notificación de KANON!!"
         />
-        <div className="flex items-center w-screen mt-20 ">
+        <div className="flex items-center mt-20 ">
           <div className="container mx-auto my-3 px-4 lg:px-20 ">
             <div className="w-full p-8 my-4 md:px-16 rounded-2xl drop-shadow-2xl shadow-500">
               <div className="flex">
-                <h1 className="font-bold text-[#563030] m-auto uppercase text-6xl">
+                <h1 className="font-bold text-[#563030] m-auto uppercase md:text-6xl text-5xl">
                   Contacto
                 </h1>
               </div>
