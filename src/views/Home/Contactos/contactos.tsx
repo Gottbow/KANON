@@ -1,5 +1,3 @@
-import Logo from '../../../assets/svg/LOGO A COLOR.svg'
-
 function contactos() {
   return (
 
@@ -31,11 +29,11 @@ function contactos() {
                 </h1>
               </div>
               <div className="grid grid-cols-1 gap-1 md:grid-cols-2 mt-10">
-              <p className='text-[#563030] text-2xl font-bold'>Nombre</p>
+              <p className='text-[#563030] text-2xl mt-4 font-bold'>Nombre</p>
                 <input
                   className="w-full bg-[#FC9179] text-[#563030]  p-3 rounded-lg focus:outline-none"
                   type="text"
-                  name="name"
+                  name="name" 
                   placeholder=""
                 />
                 <p className='text-[#563030] text-2xl mt-4 font-bold'>Apellido</p>
